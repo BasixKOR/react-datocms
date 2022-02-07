@@ -76,8 +76,8 @@
   },
   "dependencies": {
     "datocms-listen": "^0.1.7",
-    "datocms-structured-text-generic-html-renderer": "^2.0.0",
-    "datocms-structured-text-utils": "^2.0.0",
+    "datocms-structured-text-generic-html-renderer": "^2.0.1",
+    "datocms-structured-text-utils": "^2.0.1",
     "react-intersection-observer": "^8.33.1",
     "universal-base64": "^2.1.0",
     "use-deep-compare-effect": "^1.6.1"
