@@ -94,7 +94,7 @@
   ],
   "homepage": "https://github.com/datocms/react-datocms",
   "devDependencies": {
-    "@biomejs/biome": "1.2.2",
+    "@biomejs/biome": "^1.6.3",
     "@mux/mux-player-react": "*",
     "@types/enzyme": "^3.10.8",
     "@types/enzyme-to-json": "^1.5.4",
@@ -120,7 +120,7 @@
   },
   "scripts": {
     "build": "rimraf dist && npm run tsc:types && npm run tsc:cjs && npm run tsc:esm",
-    "format": "biome format --write src",
+    "format": "biome format --write src examples/src",
     "watch": "rimraf dist && tsc --project ./tsconfig.commonjs.json --watch",
     "prepare": "npm run test && npm run build",
     "test": "jest --coverage",
